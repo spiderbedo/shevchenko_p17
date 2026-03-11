@@ -1,13 +1,13 @@
 def translate_word() -> None:
 
-    '''
+    """
     Reads a dictionary of N Russian-English word pairs, then translates the phrase.
     If a word is not in the dictionary, it remains unchanged.
     Args:
         None
     Returns: 
         None
-    '''
+    """
 
     number = int(input())
     ru_eng_dict = {}

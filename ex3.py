@@ -1,4 +1,5 @@
 def find_antonym() -> None:
+    
     """
     Reads the dictionary and finds the needed antonym for the word.
     If the word is not in the dictionary, the word stays the same

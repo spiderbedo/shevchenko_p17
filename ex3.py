@@ -7,6 +7,7 @@ def find_antonym() -> None:
     Returns: 
         None
     """
+    
     n = int(input())
     antonyms = {}
     for i in range(n):

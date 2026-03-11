@@ -1,4 +1,5 @@
 def frequency() -> None:
+    
     """
     Reads the line and finds the frequency of the words.
     If the frequency is equal, the program chooses the first in order.
@@ -7,6 +8,7 @@ def frequency() -> None:
     Returns:
         None
     """
+    
     text = input().strip()
     words = text.split()
     freq = {}

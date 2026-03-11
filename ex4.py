@@ -1,7 +1,12 @@
 def find_shape() -> None:
+    
     """
     Reads the lines, then determines the shape of this item and displays it.
     If the item is not found, the word itself is displayed.
+    Args:
+        None
+    Returns: 
+        None
     """
   
     n = int(input())
